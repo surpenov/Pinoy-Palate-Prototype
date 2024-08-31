@@ -1,0 +1,26 @@
+.ingredients, .instructions {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Creates two equal  columns */
+    column-gap: 50px;
+    margin-left: 20px;
+}
+
+.ingredients ul {
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+.ingredients li, .instructions li {
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+
+.image-right {
+    float: right;
+    margin: 0 20px 10px 20px; /* Adjust the spacing as needed */
+    width: 900px; /* Adjust the width as needed */
+    height: auto;
+}

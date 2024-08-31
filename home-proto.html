@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Comic Neue' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="styles/style.css"/> 
+    <link rel="stylesheet" type="text/css" href="styles/topnav.css"/>     
+    <link rel="stylesheet" type="text/css" href="styles/footer.css"/>    
+    <link rel="stylesheet" type="text/css" href="styles/carousel.css"/>    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  </head>
+
+  <body>
+        <nav>
+            <div class="header">
+                <div><a class="logo" href="home-proto.html">Logo</a></div>
+                <div class="topnav" id="myTopnav">
+                    <a href="home-proto.html">Link</a>
+                    <a href="about-proto.html">Link</a>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Link
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="recipe-1-proto.html">Link</a>
+                        <a href="recipe-2-proto.html">Link</a>
+                        <a href="recipe-3-proto.html">Link</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <br>
+        <br>
+
+        
+        <div class="content">
+          <div class="slideshow-container">
+    
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <a href="index-proto.html"><img src="images/ex img 1.png" style="width:100%"></a>
+              <div class="text">Caption Text</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <a href="index-proto.html"><img src="images/ex img 2.png" style="width:100%"></a>
+              <div class="text">Caption Two</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <a href="index-proto.html"><img src="images/ex img 3.png"style="width:100%"></a>
+              <div class="text">Caption Three</div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+        </div>
+      <br>
+      <br>
+
+      <div>
+        <h2 style="margin-left: 200px; font-size: 35px;">Header</h2>
+        <p style="margin-left: 200px; font-size: 25px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+
+      <br>
+      <br>
+
+      <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <h3>Header</h3>
+                <p>Email:address@example.com</p>
+                <p>Phone:123 1231231 2312</p>
+            </div>
+            <div class="footer-content">
+                <h3>Header</h3>
+                 <ul class="list">
+                    <li><a href="home-proto.html">Link</a></li>
+                    <li><a href="about-proto.html">Link</a></li>
+                    <li><a href="recipe-1-proto.html">Link</a></li>
+                    <li><a href="recipe-2-proto.html">Link</a></li>
+                    <li><a href="recipe-3-proto.html">Link</a></li>
+                 </ul>
+            </div>
+            <div class="footer-content">
+                <h3>Header</h3>
+                <ul class="social-icons">
+                  <li><a>Icon</a></li>
+                  <li><a>Icon</a></li>
+                  <li><a>Icon</a></li>
+                  <li><a>Icon</a></li>
+                <!--<li><a href=""><i class="fab fa-facebook"></i></a></li>
+                 <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                 <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                 <li><a href=""><i class="fab fa-linkedin"></i></a></li>-->
+                </ul>
+                </div>
+          </div>
+          <div class="bottom-bar">
+            <p>&copy; Statement</p>
+          </div>
+      </footer>
+    </div>  
+    <script src="scripts/carousel.js"></script>  
+
+  </body>
+</html>
